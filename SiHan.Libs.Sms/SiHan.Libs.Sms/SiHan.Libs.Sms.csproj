@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>ygfweb</Authors>
+    <Company>SiHan</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>C# 发送短信库</Description>
+    <PackageProjectUrl>https://github.com/ygfweb/SiHan.Libs.Sms</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ygfweb/SiHan.Libs.Sms</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>
